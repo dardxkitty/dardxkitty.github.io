@@ -1,0 +1,151 @@
+/* body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+.rocket {
+    display: flex; 
+    justify-content: center; 
+    width: 255px;
+    height: 221px;
+}
+
+.rocket_page {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    max-width: 414px;
+    margin: 0;
+    text-align: center;
+}
+
+.Launch_btn {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+
+.balance{
+    margin-top: 0;
+    color: aliceblue;
+    margin-bottom: 100px;
+}
+
+
+.btn_rocket{
+    width: 95px;
+    height: 50px;
+}
+
+.btn_shop{
+    width: 95px;
+    height: 50px;
+}
+
+.btn_coin{
+    width: 95px;
+    height: 50px;
+}
+
+.btn_leagues{
+    width: 95px;
+    height: 50px;
+} */
+
+@media (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #181818;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        overflow-x: hidden;
+        position: fixed;
+    }
+    
+    .rocket {
+        display: flex; /* добавлено для центрирования содержимого внутри */
+        justify-content: center; /* добавлено для центрирования содержимого внутри */
+        width: 255px;
+        height: 221px;
+    }
+    
+    .rocket_page {
+        display: flex; /* добавлено для центрирования содержимого внутри */
+        flex-direction: column; /* добавлено для вертикальной центровки дочерних элементов */
+        align-items: center; /* центрирование по горизонтали */
+        justify-content: center; /* центрирование по вертикали */
+        width: 100%;
+        max-width: 414px;
+        /* margin-bottom:300px ; */
+        text-align: center;
+    }
+    
+    .Launch_btn {
+        display: flex; /* добавлено для центрирования содержимого внутри */
+        align-items: center; /* центрирование по вертикали */
+        justify-content: center; /* центрирование по горизонтали */
+        width: 200px;
+        height: 50px;
+        background-color: aliceblue;
+        border-radius: 10px;
+    
+    }
+    
+    .balance{
+        margin-top: 0;
+        color: aliceblue;
+        margin-bottom: 100px;
+    }
+    
+    
+    .btn_rocket{
+        width: 95px;
+        height: 50px;
+    }
+    
+    .btn_shop{
+        width: 95px;
+        height: 50px;
+    }
+    
+    .btn_coin{
+        width: 95px;
+        height: 50px;
+    }
+    
+    .btn_leagues{
+        width: 95px;
+        height: 50px;
+    }
+    .bar{
+        margin-bottom: 50%;
+    }
+    
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    
+}
+
+@media (min-width: 1201px) {
+    /* стили для больших экранов */
+}
